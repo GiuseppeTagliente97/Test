@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+:root {
+    --color-primary: rgb(237, 205, 32);
+    --color-secondary: black; 
+    --p-textarea-focus-border-color: black;  /* Nuovo colore del bordo in focus */
+    --p-inputtext-focus-border-color: black;  /* Nuovo colore del bordo in focus */
+
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue, Helvetica Neue, helvetica", Sans-Serif;;
+    background-color: white;
+    color: var(--color-primary);
+}
+
+.header_text{
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.filter_text{
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.column_text{
+    color:#334155 ;
+    font-weight: 600;
+    font-size: 18px;
+}
+
