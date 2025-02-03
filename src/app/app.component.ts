@@ -13,7 +13,6 @@ import { Toast, ToastModule } from 'primeng/toast';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'INEO_Project';
 
   header_data: HeaderData[] = [
     {
